@@ -11,6 +11,6 @@ def hello(array)
   collection
 end
 
-
+binding.pry
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
